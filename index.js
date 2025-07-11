@@ -3,8 +3,8 @@ const AudioStreamer = require("./lib");
 // Contoh penggunaan
 async function main() {
   const streamer = new AudioStreamer({
-    chunkSize: 2732,
-    interval: 170, // jika 2732 biasanya timing 170ms
+    chunkSize: 2560,
+    interval: 160,
   });
 
   try {
@@ -25,7 +25,7 @@ async function main() {
       }
     });
 
-    await streamer.call("0811123124"); //call ke nomor tujuan
+    await streamer.call("08110123123"); //call ke nomor tujuan
   } catch (error) {
     console.error("Error:", error);
   }
