@@ -59,8 +59,10 @@ class AudioStreamer {
       });
 
       this.io.on("newSession", (data) => {
-        this.io.emit("joinRoom", { sessionId: data.sessionId });
-        this.sessionId = data.sessionId;
+        if (!this.sessionId) {
+          this.io.emit("joinRoom", { sessionId: data.sessionId });
+          this.sessionId = data.sessionId;
+        }
       });
 
       this.io.on("error", (error) => {
