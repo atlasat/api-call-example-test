@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\rumir\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sockeet.io-client
+
+PATH: 
+  E:\My Documents\PowerShell\Modules\oh-my-posh;C:\Program Files\WindowsApps\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe;C:\Program Files\Microsoft\jdk-17.0.8.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\xampp\mysql\bin;C:\ProgramData\ComposerSetup\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files (x86)\ZeroTier\One\;D:\xampp\php;C:\Program Files\Git\cmd;C:\Users\rumir\.config\herd\bin\nvm;C:\Program Files\nodejs;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Users\rumir\.config\herd\bin;C:\Users\rumir\scoop\shims;C:\Users\rumir\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\rumir\AppData\Local\Programs\Python\Python39\;C:\Users\rumir\AppData\Local\Microsoft\WindowsApps;C:\Users\rumir\AppData\Roaming\Composer\vendor\bin;C:\Program Files (x86)\sox-14-4-2;F:\master\ffmpeg;C:\Users\rumir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rumir\AppData\Local\Microsoft\WindowsApps;C:\Users\rumir\AppData\Local\Programs\oh-my-posh\bin;C:\Users\rumir\AppData\Local\Programs\oh-my-posh\themes;C:\bin;C:\Users\rumir\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\rumir\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  22.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/sockeet.io-client: Not found
+      at params.callback [as _callback] (C:\Users\rumir\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\rumir\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:518:28)
+      at Request.<anonymous> (C:\Users\rumir\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:518:28)
+      at IncomingMessage.<anonymous> (C:\Users\rumir\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:632:28)
+      at IncomingMessage.emit (node:events:530:35)
+      at endReadableNT (node:internal/streams/readable:1698:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+
+npm manifest: 
+  {
+    "name": "example-audio-stream",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
