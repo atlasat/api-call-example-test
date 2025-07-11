@@ -10,6 +10,14 @@ install package
 npm install
 ```
 
+## edit index.js 
+
+edit index.js and change destination
+
+```javascript
+ await streamer.call("0811123124"); //call destination
+```
+
 ## Start example
 
 ```bash
