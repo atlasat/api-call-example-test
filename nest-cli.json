@@ -1,0 +1,29 @@
+{
+  "monorepo": true,
+  "root": "apps/example-audio-stream",
+  "sourceRoot": "apps/example-audio-stream/src",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/example-audio-stream/tsconfig.app.json"
+  },
+  "projects": {
+    "audio-server": {
+      "type": "application",
+      "root": "apps/audio-server",
+      "entryFile": "main",
+      "sourceRoot": "apps/audio-server/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/audio-server/tsconfig.app.json"
+      }
+    },
+    "example-audio-stream": {
+      "type": "application",
+      "root": "apps/example-audio-stream",
+      "entryFile": "main",
+      "sourceRoot": "apps/example-audio-stream/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/example-audio-stream/tsconfig.app.json"
+      }
+    }
+  }
+}
